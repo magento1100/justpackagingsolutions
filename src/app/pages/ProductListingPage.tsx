@@ -58,10 +58,14 @@ const slugify = (s: string) =>
 const resolveInternalCategory = (sectionCategory: string, itemType?: string) => {
   if (sectionCategory.includes("100% Compostable")) return "Compostable Packaging";
   if (sectionCategory.includes("Single Layer")) return "Single Layer";
+  // if (sectionCategory.includes("Multi Layer")) {
+  //   if (itemType && itemType.toLowerCase().includes("roll")) return "Laminated Rolls";
+  //   return "Pouches";
+  // }
   if (sectionCategory.includes("Multi Layer")) {
-    if (itemType && itemType.toLowerCase().includes("roll")) return "Laminated Rolls";
-    return "Pouches";
+    return "Multi Layer";
   }
+
   if (sectionCategory.includes("Paper Packaging")) return "Paper Packaging";
   return sectionCategory;
 };
@@ -181,7 +185,7 @@ export function ProductListingPage() {
     "All Products": null,
     "100% Compostable": ["Compostable Packaging"],
     "Single Layer Plastic Packaging": ["Single Layer"],
-    "Multi Layer": ["Laminated Rolls", "Pouches"],
+    "Multi Layer Plastic Packaging ": ["Multi Layer"],
     "Paper Packaging": ["Paper Packaging"],
   };
 
@@ -218,13 +222,13 @@ export function ProductListingPage() {
         "100% Recyclable and Re-usable.",
       ];
     }
-    if (category === "Laminated Rolls") {
+    if (category === "Multi Layer") {
       return [
         "Can be provided in range of 2, 3 or 4 layers.",
         "Food Grade Material.",
       ];
     }
-    if (category === "Pouches") {
+    if (category === "Multi Layer") {
       return [
         "Can be provided in range of 2, 3 or 4 layers.",
         "Food Grade Material.",
@@ -242,7 +246,7 @@ export function ProductListingPage() {
   const getBadgeLabel = (category: string): string | null => {
     if (category === "Compostable Packaging") return "100% Compostable Packaging";
     if (category === "Single Layer Plastic Packaging") return "Single Layer Plastic Packaging";
-    if (category === "Laminated Rolls" || category === "Pouches") return "Multi Layer Plastic Packaging";
+    if (category === "Multi Layer" ) return "Multi Layer Plastic Packaging";
     if (category === "Paper Packaging") return "Paper Packaging";
     return null;
   };
