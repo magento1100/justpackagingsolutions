@@ -171,7 +171,7 @@ export function ProductListingPage() {
 
   const categories = [
     "All Products",
-    "100% Compostable packaging",
+    "100% Compostable Packaging",
     "Single Layer Plastic Packaging",
     "Multi Layer Plastic Packaging",
     "Paper Packaging",
