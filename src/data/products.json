@@ -1,0 +1,801 @@
+{
+  "company": {
+    "name": "Just Packaging Solutions",
+    "tagline": "Packaging Solutions Tailored to Perfection",
+    "website": "www.justpackagingsolutions.com",
+    "email": "info@justpackagingsolutions.com",
+    "address": "Plot No. 73, Vibrant Mega Ind. Park, Zak-Kadadara Road, Vahelal, Ahmedabad - 382433, Gujarat, India",
+    "contacts": [
+      {
+        "name": "Manish Khemani",
+        "phone": "+91 99300 63410"
+      },
+      {
+        "name": "Haru Khemani",
+        "phone": "+91 98250 54320"
+      }
+    ],
+    "experience_years": 30,
+    "facility_area_sqm": 5000,
+    "facility_location": "Vibrant Mega Industrial Park, Vahelal GIDC, Ahmedabad",
+    "certifications": [
+      "GPCB - Gujarat Pollution Control Board",
+      "CPCB - Central Pollution Control Board",
+      "EPR Portal India"
+    ],
+    "about": "Just Packaging Solutions is manufacturer and supplier/exporter with over 30 years of experience in the industry. We offers an extensive product range in flexible packaging and laminated roll. We use next generation technology and adapt tailor made approach for every customer. We are using the best quality of polymers, ink and all the necessary material require for manufacturing. Our vision is to set standard for uncompromising quality, continuously striving to exceed expectations and deliver products, services of the higher caliber.",
+    "vision": "We Strive to emerge as pre-eminent flexible packaging company by developing all complaint flexible packaging material that enhances life & visibility of goods as well as is eco-friendly.",
+    "sustainability": "We have always strived to create sustainable manufacturing footprints which will complement our capacity to deliver and also achieve environmental objectives. The company aims to achieve this through initiatives like reducing energy consumption, improving water & air quality and recycling. As a result, the product that the consumers have at their disposal carries very less carbon footprint. Certain equipments such as pallets are recyclable which ensures its longevity. Our approach to Sustainability goes beyond being environmental friendly as we consider product utility as an essential component of a modern society. We have always strived to develop innovative ways that offer improved processes, designs and systems, yet have minimal impact on our surroundings.",
+    "product_range_intro": "Our portfolio include a wide variety of foils, pouches (Plastic and non-plastic) inclusive of 3D and 4D pouches with re-closable options, confectionery foils, innolock pouches, pocket PTC zipper, etc. We provide packaging solutions in various industries including Confectionery, Tea, Flour, Sugar, Pulses and cereals, Sea Food, Incense Sticks, Soap and Detergent, Seeds, Cosmetics, Wafer and Snacks, Bakery etc."
+  },
+  "products": [
+    {
+      "category": "Non Plastic Packaging Solutions - Eco Friendly - 100% Compostable",
+      "items": [
+        {
+          "name": "100% Compostable Shopping Bag",
+          "type": "Shopping Bag",
+          "product_specification": {
+            "material": "Plant-based organic material",
+            "bpa_free": true,
+            "unscented": true,
+            "compostable": true,
+            "non_plastic": true,
+            "certifications": [
+              "Indian CIPET",
+              "CPCB - Central Pollution Control Board",
+              "USA BPI Certificate",
+              "ASTM D6400 standard",
+              "Ok Compost Home Certificate - Europe"
+            ]
+          },
+          "material_caution": [
+            "Due to the basic nature of compostable it is effected by long time sun exposure.",
+            "Shelf life can be between 6-12 months.",
+            "Higher thickness is required to carry X weight compared to the thickness required by plastic bags to carry same X weight."
+          ],
+          "advantages": [
+            "Compostable grocery bags recycle efficiently in less time and don't release harmful chemicals or elements.",
+            "They can be recycled into any other things and can be used again.",
+            "Regular plastic is also recyclable, but the procedure includes releasing toxic elements unsuitable for the environment.",
+            "These are most suitable to malls / shopping centers which operate in the province where plastic usage is restricted."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / semi transparent.",
+            "With Multi color printing on transparent or non-transparent material.",
+            "Any customizable Shape and Size as per customer requirement.",
+            "Ready to sell type packaging."
+          ]
+        },
+        {
+          "name": "100% Compostable Pet Poop Bag",
+          "type": "Pet Poop Bag",
+          "product_specification": {
+            "material": "Plant-based organic material",
+            "bpa_free": true,
+            "unscented": true,
+            "compostable": true,
+            "non_plastic": true,
+            "certifications": [
+              "Indian CIPET",
+              "CPCB - Central Pollution Control Board",
+              "USA BPI Certificate",
+              "ASTM D6400 standard",
+              "Ok Compost Home Certificate - Europe"
+            ]
+          },
+          "material_caution": [
+            "Due to the basic nature of compostable it is effected by long time sun exposure.",
+            "Shelf life can be between 6-12 months.",
+            "Higher thickness is required to carry X weight compared to the thickness required by plastic bags to carry same X weight."
+          ],
+          "advantages": [
+            "Easy pull out.",
+            "Strong, thick and Durable.",
+            "100% leak proof."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / semi transparent.",
+            "With Multi color printing on transparent or non-transparent material.",
+            "Any customizable Shape and Size as per customer requirement.",
+            "Ready to sell type packaging."
+          ]
+        },
+        {
+          "name": "100% Compostable Trash Bag",
+          "type": "Trash Bag",
+          "product_specification": {
+            "material": "Plant-based organic material",
+            "bpa_free": true,
+            "unscented": true,
+            "compostable": true,
+            "non_plastic": true,
+            "certifications": [
+              "Indian CIPET",
+              "CPCB - Central Pollution Control Board",
+              "USA BPI Certificate",
+              "ASTM D6400 standard",
+              "Ok Compost Home Certificate - Europe"
+            ]
+          },
+          "material_caution": [
+            "Due to the basic nature of compostable it is effected by long time sun exposure.",
+            "Shelf life can be between 6-12 months.",
+            "Higher thickness is required to carry X weight compared to the thickness required by plastic bags to carry same X weight."
+          ],
+          "advantages": [
+            "Can be provided in roll form or in easy pull out mechanism.",
+            "Strong, thick and Durable.",
+            "100% leak proof.",
+            "Can be customized to carry 30 lbs plus weight."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / semi transparent.",
+            "With Multi color printing on transparent or non-transparent material.",
+            "Any customizable Shape and Size as per customer requirement.",
+            "Ready to sell type packaging."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Plastic Packaging Solutions - Single Layer - Plain and Printed",
+      "items": [
+        {
+          "name": "Shopping Bag",
+          "type": "Shopping Bag",
+          "product_specification": {
+            "material": [
+              "Low-Density Poly Ethylene (LDPE)",
+              "High-Density Poly Ethylene (HDPE)",
+              "Combination of both"
+            ],
+            "recyclable": true,
+            "reusable": true,
+            "final_product": "100% Recyclable and Re-usable"
+          },
+          "material_layers": "Ideal single layer material, multi layer can be provided on customer request.",
+          "suitable_for": [
+            "General flexible packaging - Suitable for malls, restaurants and food chains.",
+            "Suitable for goods such as foods, produce, powders, ice, magazines, chemicals etc.",
+            "Cost Effective and durable than paper."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / semi transparent.",
+            "With Single / Multi color printing on transparent or non-transparent material.",
+            "Any customizable Shape and Size as per customer requirement.",
+            "Ready to sell type packaging."
+          ]
+        },
+        {
+          "name": "Fruit & Veggies Bags - Rolls and Go",
+          "type": "Fruit & Vegetable Bag",
+          "product_specification": {
+            "material": [
+              "Low-Density Poly Ethylene (LDPE)",
+              "High-Density Poly Ethylene (HDPE)",
+              "Combination of both",
+              "Compostable / bio-degradable material"
+            ],
+            "recyclable": true,
+            "reusable": true,
+            "final_product": "100% Recyclable and Re-usable"
+          },
+          "material_layers": "Ideal single layer material, multi layer can be provided on customer request.",
+          "suitable_for": [
+            "General flexible packaging - Suitable for malls, restaurants and food chains.",
+            "Suitable for Veggies / Fruits / Meat / cereal / grain and other loose products packaging in shopping center / mall.",
+            "Low in weight hence low in cost thus becomes most suitable to mall owners who sells fruits, veggies, loose cereals."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / semi transparent.",
+            "With Single / Multi color printing on transparent or non-transparent material.",
+            "Any customizable Shape and Size as per customer requirement.",
+            "Ready to sell / use type SKU packaging."
+          ]
+        },
+        {
+          "name": "Trash Bag",
+          "also_known_as": "Garbage Bag / Bin Liner",
+          "type": "Trash Bag",
+          "product_specification": {
+            "material": [
+              "Low-Density Poly Ethylene (LDPE)",
+              "High-Density Poly Ethylene (HDPE)",
+              "Combination of both"
+            ],
+            "recyclable": true,
+            "reusable": true,
+            "final_product": "100% Recyclable and Re-usable"
+          },
+          "material_layers": "Ideal single layer material.",
+          "suitable_for": [
+            {
+              "type": "Light to Medium Waste",
+              "description": "For regular household waste, a bag thickness between 0.7 to 1.2 millimeters (mils) is usually sufficient."
+            },
+            {
+              "type": "Heavy or Sharp Waste",
+              "description": "If you often dispose of heavy or sharp waste, opt for thicker bags with a thickness of 1.5 mils or more. These bags provide extra strength and reduce the risk of tearing or leakage."
+            }
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / semi transparent.",
+            "With Single / Multi color printing on transparent or non-transparent material.",
+            "Any customizable Shape, Size and gusset, as per customer requirement.",
+            "Can have additional features like: drawstrings, handles, or odor-control properties, to enhance convenience and functionality.",
+            "Can be given in box with your branding (as shown and created for VB)."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Plastic Packaging Solutions - Multi Layer - Plain and Printed",
+      "items": [
+        {
+          "name": "Laminated Packaging - Roll Form",
+          "full_name": "Laminated Packaging for Food/Otherwise Grade - Multilayer - Roll Form",
+          "type": "Multilayer Roll",
+          "product_specification": {
+            "material_combination": [
+              "PET",
+              "PET MET",
+              "LDPE",
+              "BOPP",
+              "PP",
+              "CPP"
+            ],
+            "layers_available": [
+              2,
+              3,
+              4
+            ],
+            "food_grade": true
+          },
+          "suitable_for": [
+            "Suitable for units using automatic packaging machine for their product.",
+            "Produces Packaging at a Higher Speed and Efficiency.",
+            "Storage Space Savings.",
+            "Suitable for Sterilization."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / Aluminum Foil / Metalize.",
+            "With Single / Multi color printing on transparent or non-transparent material.",
+            "Matte/gloss finish is also possible.",
+            "Any customizable Shape and Size as per customer requirement."
+          ]
+        },
+        {
+          "name": "Laminated Packaging - Pouch Form",
+          "full_name": "Laminated Packaging for Food/Otherwise Grade - Multilayer - Pouch Form",
+          "type": "Multilayer Pouch",
+          "product_specification": {
+            "material_combination": [
+              "PET",
+              "PET MET",
+              "LDPE",
+              "BOPP",
+              "PP",
+              "CPP"
+            ],
+            "layers_available": [
+              2,
+              3,
+              4
+            ],
+            "food_grade": true
+          },
+          "pouch_types": [
+            "Spout Pouch",
+            "Stand Up Pouch",
+            "Plain Aluminum Pouch",
+            "Flat / Box Pouch",
+            "D Punch Pouch",
+            "Window Aluminum Pouch"
+          ],
+          "suitable_for": [
+            "Suitable for all flexible packaging needs.",
+            "Light weight, custom sizes and shapes.",
+            "Protection from contamination.",
+            "Durable - various pouch types available."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / Aluminum Foil / Metalize.",
+            "With Single / Multi color printing on transparent or non-transparent material.",
+            "Matte/gloss finish is also possible.",
+            "Any customizable Shape and Size as per customer requirement."
+          ]
+        },
+        {
+          "name": "Spout Pouches",
+          "full_name": "Laminated Packaging for Food/Otherwise Grade - Multilayer - Pouch Form - Spout Pouches",
+          "type": "Spout Pouch",
+          "parent_category": "Multilayer Pouch Form",
+          "product_specification": {
+            "material_combination": [
+              "PET",
+              "PET MET",
+              "LDPE",
+              "BOPP",
+              "PP",
+              "CPP"
+            ],
+            "layers_available": [
+              2,
+              3,
+              4
+            ],
+            "food_grade": true
+          },
+          "suitable_for": [
+            "Suitable for units manufacturing liquid form products e.g. detergent liquid, grease etc.",
+            "Cost effective compared to plastic bottles / barrels.",
+            "High Convenience in storage as overall packaging is flexible.",
+            "Eco Friendly and Economical in comparison to plastic bottles / barrels.",
+            "High Visibility on the retail shelves."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / Aluminum Foil / Metalize.",
+            "With Single / Multi color printing on transparent or non-transparent material.",
+            "Matte/gloss finish is also possible.",
+            "Any customizable Shape and Size as per customer requirement.",
+            "Spout styles: Plain spout, Special Shape Spout, Side spout, Center Spout."
+          ]
+        },
+        {
+          "name": "Standy Pouches",
+          "full_name": "Laminated Packaging for Food/Otherwise Grade - Multilayer - Pouch Form - Standy Pouches",
+          "type": "Stand-Up Pouch (Doypack)",
+          "parent_category": "Multilayer Pouch Form",
+          "product_specification": {
+            "material_combination": [
+              "PET",
+              "PET MET",
+              "LDPE",
+              "BOPP",
+              "PP",
+              "CPP"
+            ],
+            "layers_available": [
+              2,
+              3,
+              4
+            ],
+            "food_grade": true
+          },
+          "suitable_for": [
+            "Food Industry: Dry fruits, snacks, spices, namkeen, tea, coffee, sugar, grains.",
+            "Pharmaceuticals & Supplements: Tablets, powders, herbal products.",
+            "Personal Care & Cosmetics: Face packs, powders, travel-size products.",
+            "Pet Food Industry.",
+            "Industrial & Hardware: Screws, nuts, small parts."
+          ],
+          "benefits": [
+            "Resealability.",
+            "Extended Shelf Life.",
+            "User Convenience.",
+            "Easy to open (no scissors needed).",
+            "Lightweight & Cost-Effective compared to jars.",
+            "Attractive Packaging - Can be designed as Stand-up pouches (Doypack)."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / Aluminum Foil / Metalize.",
+            "With Single / Multi color printing on transparent or non-transparent material.",
+            "Matte/gloss finish is also possible.",
+            "Any customizable Shape, Size, Tear notches, hang holes, as per customer requirement.",
+            "Zipper size and weight customization also possible."
+          ]
+        },
+        {
+          "name": "Handle / D-Punch Pouches",
+          "full_name": "Laminated Packaging for Food/Otherwise Grade - Multilayer - Pouch Form - Handle / D-Punch Pouches",
+          "type": "D-Punch Pouch",
+          "parent_category": "Multilayer Pouch Form",
+          "product_specification": {
+            "material_combination": [
+              "PET",
+              "PET MET",
+              "LDPE",
+              "BOPP",
+              "PP",
+              "CPP"
+            ],
+            "layers_available": [
+              2,
+              3,
+              4
+            ],
+            "food_grade": true
+          },
+          "suitable_for": [
+            "Suitable for units wanting to pack in bulk like 500g to 5kg or combo / festive pack.",
+            "Predominantly used for Retail & FMCG Products like: Atta, rice, pulses, Dry fruits, detergent / cleaning powder, namkeen, snacks."
+          ],
+          "benefits": [
+            "Built-in Handle (D-Cut) - easy to carry.",
+            "Creates strong & durable structure of packaging.",
+            "Gives premium look.",
+            "Provides large Branding Area."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / Aluminum Foil / Metalize.",
+            "With Single / Multi color printing on transparent or non-transparent material.",
+            "Matte/gloss finish is also possible.",
+            "Any customizable Shape and Size as per customer requirement.",
+            "Can be merged with other pouches like spout with handle, zipper with handle etc."
+          ]
+        },
+        {
+          "name": "Flat Bottom / Box / Standy Pouches",
+          "full_name": "Laminated Packaging for Food/Otherwise Grade - Multilayer - Pouch Form - Flat Bottom / Box / Standy Pouches",
+          "type": "Box Pouch",
+          "parent_category": "Multilayer Pouch Form",
+          "product_specification": {
+            "material_combination": [
+              "PET",
+              "PET MET",
+              "LDPE",
+              "BOPP",
+              "PP",
+              "CPP"
+            ],
+            "layers_available": [
+              2,
+              3,
+              4
+            ],
+            "food_grade": true
+          },
+          "box_pouch_styles": [
+            "Flat bottom full gusset",
+            "Flat bottom terminated gusset",
+            "Pinch bottom",
+            "Flat top & bottom"
+          ],
+          "suitable_for": [
+            "Food Industry: Dry fruits, snacks, spices, namkeen, tea, coffee, sugar, grains.",
+            "Pharmaceuticals & Supplements: Tablets, powders, herbal products.",
+            "Personal Care & Cosmetics: Face packs, powders, travel-size products.",
+            "Pet Food Industry.",
+            "Industrial & Hardware: Screws, nuts, small parts."
+          ],
+          "benefits": [
+            "3D Shape pouch.",
+            "Improves shelf presence.",
+            "Better cube utilization.",
+            "Faster filling rates.",
+            "Product see-through window option on gusset.",
+            "Easy open and resealability."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / Aluminum Foil / Metalize.",
+            "With Single / Multi color printing on transparent or non-transparent material.",
+            "Matte/gloss finish is also possible.",
+            "Any customizable Shape, Size, Tear notches, hang holes, as per customer requirement.",
+            "Zipper size and weight customization also possible.",
+            "Four different box pouch styles: flat bottom full gusset, flat bottom terminated gusset, pinch bottom, and flat top & bottom."
+          ]
+        },
+        {
+          "name": "Vacuum Seal Pouches",
+          "full_name": "Laminated Packaging for Food/Otherwise Grade - Multilayer - Pouch Form - Vacuum Seal Pouches",
+          "type": "Vacuum Pouch",
+          "parent_category": "Multilayer Pouch Form",
+          "product_specification": {
+            "material_combination": [
+              "PET",
+              "BOPA",
+              "PET MET",
+              "LDPE",
+              "BOPP",
+              "PP",
+              "CPP"
+            ],
+            "layers_available": [
+              2,
+              3,
+              4
+            ],
+            "food_grade": true
+          },
+          "suitable_for": [
+            "Suitable for units wanting to pack in air tight condition.",
+            "Dairy Products e.g. Paneer.",
+            "Snacks items like peanuts etc.",
+            "Brittle items like Khakhra."
+          ],
+          "benefits": [
+            "Increases shelf life of product.",
+            "Protects foods better to avoid moisture contamination.",
+            "Provides safety in transportation.",
+            "Reduces transportation cost by eliminating air."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / Aluminum Foil / Metalize.",
+            "With Single / Multi color printing on transparent or non-transparent material.",
+            "Matte/gloss finish is also possible.",
+            "Any customizable Shape and Size as per customer requirement."
+          ]
+        },
+        {
+          "name": "Plain/Metalized Packaging Solution - Pouch and Roll Form",
+          "full_name": "Plain/Metalized Packaging Solution - Multiple Layer - Pouch and Roll Form",
+          "type": "Plain/Metalized Pouch & Roll",
+          "parent_category": "Multilayer Pouch Form",
+          "product_specification": {
+            "material_combination": [
+              "PET",
+              "PET MET",
+              "LDPE",
+              "BOPP",
+              "PP",
+              "CPP"
+            ],
+            "layers_available": [
+              2,
+              3,
+              4
+            ],
+            "food_grade": true
+          },
+          "suitable_for": [
+            "Garment industry for cloth packaging.",
+            "Food Industry: Dry fruits, snacks, spices, namkeen, tea, coffee, sugar, grains where display of product is priority.",
+            "Industrial & Hardware: Screws, nuts, small parts."
+          ],
+          "benefits": [
+            "Cost effective compared to other 3 layer pouches without compromising on quality of product for keeping food / item freshness.",
+            "Most beneficial for small scale units who do not want to create separate packaging for each item.",
+            "Reduces stocking cost."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / Aluminum Foil / Metalize.",
+            "Plain / Single / Multi color printing on transparent or non-transparent material.",
+            "Matte/gloss finish is also possible.",
+            "Any customizable Shape, Size, Tear notches, hang holes, as per customer requirement.",
+            "Zipper size and weight customization also possible.",
+            "Heat seal, Zip lock pouch, Zip lock handle / thread to carry the bag.",
+            "One side / both side printing / plain / transparent option."
+          ]
+        },
+        {
+          "name": "Window Metalized Packaging Solution - Pouch and Roll Form",
+          "full_name": "Window Metalized Packaging Solution - Multiple Layer - Pouch and Roll Form",
+          "type": "Window Metalized Pouch & Roll",
+          "parent_category": "Multilayer Pouch Form",
+          "product_specification": {
+            "material_combination": [
+              "PET",
+              "BOPA",
+              "PET MET",
+              "LDPE",
+              "BOPP",
+              "PP",
+              "CPP"
+            ],
+            "layers_available": [
+              2,
+              3,
+              4
+            ],
+            "food_grade": true
+          },
+          "suitable_for": [
+            "Most Suitable for Food Industry: Dry fruits, snacks, spices, namkeen, tea, coffee, sugar, grains where display of product is priority."
+          ],
+          "benefits": [
+            "Cost effective compared to other 3 layer pouches without compromising on quality.",
+            "Maintains food / item freshness.",
+            "Maintains shining of product.",
+            "Most beneficial for small scale units who do not want to create separate packaging for each item.",
+            "Reduces stocking cost."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / Aluminum Foil / Metalize.",
+            "Plain / Single / Multi color printing on transparent or non-transparent material.",
+            "Matte/gloss finish is also possible.",
+            "Any customizable Shape, Size, Zip lock handle etc as per customer requirement."
+          ]
+        },
+        {
+          "name": "Other Regular Pouches - Center Seal, Side Seal, Perforation, Side Gusset",
+          "type": "Regular Pouches",
+          "parent_category": "Multilayer Pouch Form",
+          "product_specification": {
+            "material_combination": [
+              "PET",
+              "PET MET",
+              "LDPE",
+              "BOPP",
+              "PP",
+              "CPP"
+            ],
+            "layers_available": [
+              2,
+              3,
+              4
+            ],
+            "food_grade": true
+          },
+          "suitable_for": [
+            "It is general purpose packaging and most widely used type of pouches.",
+            "Mostly all industries use this packaging specifically food Industry like dry fruits, snacks, spices, namkeen, tea, coffee, sugar, grains etc.",
+            "Primarily used by producers who do not use automatic packaging machines."
+          ],
+          "benefits": [
+            "Cost effective.",
+            "No need of automatic packaging line.",
+            "Common pouches also reduces need of heavy stocking."
+          ],
+          "customization": [
+            "100% transparent / 100% Opacity (Any color) / Aluminum Foil / Metalize.",
+            "Plain / Single / Multi color printing on transparent or non-transparent material.",
+            "Matte/gloss finish is also possible.",
+            "Any customizable Shape, Size as per customer requirement.",
+            "One side / both side printing / plain / transparent option."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Paper Packaging Solution",
+      "items": [
+        {
+          "name": "Paper Packaging",
+          "type": "Paper Laminate",
+          "product_specification": {
+            "material_combination": [
+              "PET",
+              "MET",
+              "PAPER",
+              "LDPE"
+            ],
+            "layers_available": [
+              2,
+              3,
+              4
+            ],
+            "metalize_option": true
+          },
+          "suitable_for": [
+            "Most Suitable for FMCG Industry for packaging of soap, tobacco and retail food chains.",
+            "It is environment friendly.",
+            "Gives product more sturdiness compared to only plastic packaging."
+          ],
+          "customization": [
+            "2 Layer / 3 Layer / 4 Layer with Metalize.",
+            "Plain / Single / Multi color printing on non-transparent material.",
+            "Matte/gloss finish is also possible.",
+            "Any customizable Shape and Size as per customer requirement."
+          ]
+        }
+      ]
+    }
+  ],
+  "industries_served": [
+    {
+      "industry": "Food Industry",
+      "products": [
+        "Single and Tandem Extrusion Coated Chips and Biscuits Wrappers",
+        "Confectionery - Twist Wrap Wrappers",
+        "Confectionery - Pillow Pack Laminates",
+        "Confectionery - Pouches",
+        "Tea, Coffee and Salt Laminates",
+        "Cereals",
+        "Spices",
+        "Milk and Dairy Products",
+        "Cake and Chocolates",
+        "Wrappers with requirement for Excellent WVTR and OTR Properties",
+        "Frozen Foods / Vacuum Frozen"
+      ]
+    },
+    {
+      "industry": "Home, Personal & Health Care Packaging",
+      "products": [
+        "Detergent Powder And Soap Wrappers",
+        "Shampoo Laminates",
+        "Diapers And Sanitary Napkins"
+      ]
+    },
+    {
+      "industry": "Liquid Packaging",
+      "products": [
+        "Milk Packaging",
+        "Water / Lube Based Packaging",
+        "Oil & Lubricants Packaging"
+      ]
+    },
+    {
+      "industry": "Packaging for Agricultural Needs",
+      "products": [
+        "Seeds",
+        "Animal Feeds",
+        "Pesticides And Insecticides"
+      ]
+    },
+    {
+      "industry": "Shopping and Trash Bags",
+      "products": [
+        "Compostable Shopping Bags",
+        "Recyclable Shopping Bags",
+        "Compostable Trash Bags",
+        "Recyclable Trash Bags",
+        "Pet Poop Bags"
+      ]
+    },
+    {
+      "industry": "Aluminum Foil Based Wrappers and Liners",
+      "products": [
+        "Aluminum Foil Wrappers",
+        "Aluminum Foil Liners"
+      ]
+    },
+    {
+      "industry": "Other Industries",
+      "products": [
+        "Confectionery",
+        "Tea",
+        "Flour",
+        "Sugar",
+        "Pulses and Cereals",
+        "Sea Food",
+        "Incense Sticks",
+        "Soap and Detergent",
+        "Seeds",
+        "Cosmetics",
+        "Wafer and Snacks",
+        "Bakery"
+      ]
+    }
+  ],
+  "trusted_brands": [
+    {
+      "name": "New India Bazar",
+      "country": "USA"
+    },
+    {
+      "name": "Ame Gujarati",
+      "country": "USA"
+    },
+    {
+      "name": "Sabzi Mandi",
+      "country": "USA"
+    },
+    {
+      "name": "Veer",
+      "country": "USA"
+    },
+    {
+      "name": "V. B. & Sons",
+      "country": "UK"
+    },
+    {
+      "name": "Special Group",
+      "country": "Madagascar"
+    },
+    {
+      "name": "Petolly",
+      "country": "Canada"
+    },
+    {
+      "name": "Alif",
+      "country": "UAE"
+    },
+    {
+      "name": "Molou Industries",
+      "country": "Madagascar"
+    },
+    {
+      "name": "Island Grill",
+      "country": "Gambia"
+    },
+    {
+      "name": "Monginis",
+      "country": "India"
+    },
+    {
+      "name": "Nikir",
+      "country": "India"
+    }
+  ]
+}
