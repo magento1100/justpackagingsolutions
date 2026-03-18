@@ -41,8 +41,8 @@ export default async function handler(req, res) {
       from: "onboarding@resend.dev", 
       // change to: "contact@justpackagingsolutions.com" AFTER domain verification
 
-      to: process.env.TARGET_EMAIL, // your company email
-
+      to: "pranavstoretransform@gmail.com", // your company email
+//    to :"process.env.TARGET_EMAIL"
       subject: "New Contact Form Submission",
 
       reply_to: email,
