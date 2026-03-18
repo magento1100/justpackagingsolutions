@@ -82,7 +82,7 @@ export function ContactPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-white/90"
           >
-            We are here to help you find the perfect packaging solution.
+            We are here to help you find the perfect packaging solution.  
           </motion.p>
         </div>
       </section>
