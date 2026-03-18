@@ -185,7 +185,7 @@ export function ProductListingPage() {
     "All Products": null,
     "100% Compostable Packaging": ["Compostable Packaging"],
     "Single Layer Plastic Packaging": ["Single Layer"],
-    "Multi Layer Plastic Packaging ": ["Multi Layer"],
+    "Multi Layer Plastic Packaging ": ["Multi Layer Plastic Packaging"],
     "Paper Packaging": ["Paper Packaging"],
   };
 
@@ -228,12 +228,12 @@ export function ProductListingPage() {
         "Food Grade Material.",
       ];
     }
-    if (category === "Multi Layer") {
-      return [
-        "Can be provided in range of 2, 3 or 4 layers.",
-        "Food Grade Material.",
-      ];
-    }
+    // if (category === "Multi Layer") {
+    //   return [
+    //     "Can be provided in range of 2, 3 or 4 layers.",
+    //     "Food Grade Material.",
+    //   ];
+    // }
     if (category === "Paper Packaging") {
       return [
         "Made from Low-Density Poly Ethylene.",
