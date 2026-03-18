@@ -21,7 +21,6 @@ import facilityImg3 from "@/assets/67ec502b1ba108259238ac174c22b0c91268eec8.png"
 export function AboutPage() {
   return (
     <div>
-      <div><h1>testing</h1></div>
       {/* Hero Section */}
       <section
         className="relative h-[400px] bg-cover bg-center"
