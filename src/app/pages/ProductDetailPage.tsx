@@ -67,8 +67,8 @@ const slugify = (s: string) =>
 
 const resolveInternalCategory = (sectionCategory: string, itemType?: string) => {
   if (sectionCategory.includes("100% Compostable")) return "Compostable Packaging";
-  if (sectionCategory.includes("Single Layer")) return "Single Layer";
-  if (sectionCategory.includes("Multi Layer")) {
+  if (sectionCategory.includes("Single Layer")) return "Single Layer Plastic Packaging";
+  if (sectionCategory.includes("Multi Layer Plastic Packaging")) {
     if (itemType && itemType.toLowerCase().includes("roll")) return "Laminated Rolls";
     return "Pouches";
   }
