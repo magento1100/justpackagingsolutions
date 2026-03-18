@@ -195,16 +195,7 @@ export function ProductListingPage() {
     return matchesSearch && matchesCategory;
   });
 
-  const groupedProducts = filteredProducts.reduce((acc, product) => {
-  const key = product.category;
-
-  if (!acc[key]) {
-    acc[key] = [];
-  }
-
-  acc[key].push(product);
-  return acc;
-}, {} as Record<string, typeof filteredProducts>);
+  
 
   const getSubtitle = (category: string) => {
     if (category === "Compostable Packaging") return "100% COMPOSTABLE";
