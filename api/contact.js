@@ -15,7 +15,7 @@ export default async function handler(req, res) {
     }
 
     await resend.emails.send({
-      from: "onboarding@resend.dev",
+      from: "contact@justpackagingsolutions.com",
       to: process.env.TARGET_EMAIL,
       subject: "New Contact Form Submission",
       reply_to: email,
