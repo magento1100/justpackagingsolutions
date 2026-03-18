@@ -185,7 +185,7 @@ export function ProductListingPage() {
     "All Products": null,
     "100% Compostable Packaging": ["Compostable Packaging"],
     "Single Layer Plastic Packaging": ["Single Layer"],
-    "Multi Layer Plastic Packaging ": ["Multi Layer Plastic Packaging"],
+    "Multi Layer Plastic Packaging ": ["Multi Layer"],
     "Paper Packaging": ["Paper Packaging"],
   };
 
