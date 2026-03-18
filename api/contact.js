@@ -1,3 +1,4 @@
+export const runtime = "nodejs";
 import { Resend } from "resend";
 import { sql } from "@vercel/postgres";
 
