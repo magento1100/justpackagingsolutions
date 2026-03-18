@@ -203,7 +203,7 @@ export function ProductListingPage() {
 
   const getSubtitle = (category: string) => {
     if (category === "Compostable Packaging") return "100% COMPOSTABLE";
-    if (category === "Single Layer ") return "SINGLE LAYER ";
+    if (category === "Single Layer") return "SINGLE LAYER";
     if (category === "Laminated Rolls" || category === "Pouches") return "MULTI LAYER";
     if (category === "Paper Packaging") return "PAPER PACKAGING";
     return category.toUpperCase();
