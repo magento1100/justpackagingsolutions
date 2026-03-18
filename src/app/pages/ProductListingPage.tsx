@@ -356,9 +356,9 @@ export function ProductListingPage() {
                   </div>
                   <div className="bg-white flex flex-col flex-1">
                     <div className="p-6">
-                      {/* <div className="text-xs font-semibold tracking-wider text-[#008F4C] mb-2">
+                      { <div className="text-xs font-semibold tracking-wider text-[#008F4C] mb-2">
                         {getSubtitle(product.category)}
-                      </div> */}
+                      </div> }
                       <h3 className="text-xl font-semibold text-[#1F3A5F] mb-3">{product.name}</h3>
                       {getFeatures(product.category).length > 0 && (
                         <ul className="space-y-2 mb-6">
