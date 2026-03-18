@@ -173,13 +173,13 @@ export function ProductListingPage() {
     "All Products",
     "100% Compostable Packaging",
     "Single Layer Plastic Packaging",
-    "Multi Layer Plastic Packaging",
+    "Multi Layer Plastic Packaging_",
     "Paper Packaging",
   ];
 
   const categoryMap: Record<string, string[] | null> = {
     "All Products": null,
-    "100% Compostable Packaging": ["Compostable Packaging"],
+    "100% Compostable Packaging_": ["Compostable Packaging"],
     "Single Layer Plastic Packaging": ["Single Layer"],
     "Multi Layer Plastic Packaging": ["Laminated Rolls", "Pouches"],
     "Paper Packaging": ["Paper Packaging"],
