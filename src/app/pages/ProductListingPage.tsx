@@ -183,7 +183,7 @@ export function ProductListingPage() {
 
   const categoryMap: Record<string, string[] | null> = {
     "All Products": null,
-    "100% Compostable": ["Compostable Packaging"],
+    "100% Compostable Packaging": ["Compostable Packaging"],
     "Single Layer Plastic Packaging": ["Single Layer"],
     "Multi Layer Plastic Packaging ": ["Multi Layer"],
     "Paper Packaging": ["Paper Packaging"],
@@ -203,7 +203,7 @@ export function ProductListingPage() {
 
   const getSubtitle = (category: string) => {
     if (category === "Compostable Packaging") return "100% COMPOSTABLE";
-    if (category === "Single Layer Plastic Packaging") return "SINGLE LAYER ";
+    if (category === "Single Layer ") return "SINGLE LAYER ";
     if (category === "Laminated Rolls" || category === "Pouches") return "MULTI LAYER";
     if (category === "Paper Packaging") return "PAPER PACKAGING";
     return category.toUpperCase();
@@ -216,7 +216,7 @@ export function ProductListingPage() {
         "BPA Free.",
       ];
     }
-    if (category === "Single Layer Plastic Packaging") {
+    if (category === "Single Layer") {
       return [
         "Made from Low-Density Poly Ethylene.",
         "100% Recyclable and Re-usable.",
