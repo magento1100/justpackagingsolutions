@@ -179,7 +179,7 @@ export function ProductListingPage() {
 
   const categoryMap: Record<string, string[] | null> = {
     "All Products": null,
-    "100% Compostable": ["Compostable Packaging"],
+    "100% Compostable_": ["Compostable Packaging"],
     "Single Layer": ["Single Layer"],
     "Multi Layer": ["Laminated Rolls", "Pouches"],
     "Paper Packaging": ["Paper Packaging"],
@@ -238,7 +238,7 @@ export function ProductListingPage() {
   };
 
   const getBadgeLabel = (category: string): string | null => {
-    if (category === "Compostable Packaging") return "100% Compostable_";
+    if (category === "Compostable Packaging") return "100% Compostable";
     if (category === "Single Layer") return "Single Layer";
     if (category === "Laminated Rolls" || category === "Pouches") return "Multi Layer";
     if (category === "Paper Packaging") return "Paper Packaging";
