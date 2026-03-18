@@ -66,7 +66,13 @@ export function ContactPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#1F3A5F] to-[#2FAE7F] text-white py-20">
+      <section className="bg-gradient-to-r from-[#1F3A5F] to-[#2FAE7F] text-white py-20"
+       style={{
+          backgroundImage:
+            "url(https://images.unsplash.com/hero_contact.png)",
+        }}
+      
+      >
         <div className="max-w-[1200px] mx-auto px-10">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
