@@ -22,12 +22,22 @@ export function ContactPage() {
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  e.preventDefault();
+  setIsSubmitting(true);
+  setSubmitStatus("idle");
 
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
+  try {
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    const data = await res.json();
+
+    if (res.ok) {
       setSubmitStatus("success");
       setFormData({
         name: "",
@@ -37,12 +47,21 @@ export function ContactPage() {
         message: "",
       });
 
-      // Reset success message after 5 seconds
+      // keep your 5 sec reset logic
       setTimeout(() => {
         setSubmitStatus("idle");
       }, 5000);
-    }, 1500);
-  };
+    } else {
+      console.error(data.message);
+      setSubmitStatus("error");
+    }
+  } catch (error) {
+    console.error(error);
+    setSubmitStatus("error");
+  } finally {
+    setIsSubmitting(false);
+  }
+};
 
   return (
     <div>
