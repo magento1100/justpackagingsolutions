@@ -238,9 +238,9 @@ export function ProductListingPage() {
   };
 
   const getBadgeLabel = (category: string): string | null => {
-    if (category === "Compostable Packaging") return "100% Compostable_";
-    if (category === "Single Layer") return "Single Layer";
-    if (category === "Laminated Rolls" || category === "Pouches") return "Multi Layer";
+    if (category === "Compostable Packaging") return "100% Compostable Packaging";
+    if (category === "Single Layer Plastic Packaging") return "Single Layer Plastic Packaging";
+    if (category === "Laminated Rolls" || category === "Pouches") return "Multi Layer Plastic Packaging";
     if (category === "Paper Packaging") return "Paper Packaging";
     return null;
   };
