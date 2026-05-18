@@ -95,32 +95,29 @@ function HeroSection() {
   const [currentBg, setCurrentBg] = React.useState(0);
 
   React.useEffect(() => {
-
     const interval = setInterval(() => {
       setCurrentBg((prev) => (prev + 1) % backgrounds.length);
     }, 4000);
 
     return () => clearInterval(interval);
-
   }, []);
 
   return (
-
     <section className="relative w-full overflow-hidden">
 
-      {/* Banner Slider */}
-      <div className="w-full h-[220px] sm:h-[320px] md:h-[450px] lg:h-[600px] xl:h-[720px] overflow-hidden">
-
-        <img
-          src={backgrounds[currentBg]}
-          alt="Banner"
-          className="w-full h-full object-cover object-center transition-all duration-1000"
-        />
-
+      {/* Banner Slider Only */}
+      <div
+        className="w-full h-[300px] md:h-[500px] lg:h-[700px] transition-all duration-1000"
+        style={{
+          backgroundImage: `url(${backgrounds[currentBg]})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
       </div>
 
     </section>
-
   );
 }
 
