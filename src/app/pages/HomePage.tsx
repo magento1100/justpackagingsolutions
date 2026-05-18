@@ -1,5 +1,7 @@
 import { Link } from "react-router";
 import { motion } from "motion/react";
+import React from "react";
+
 import {
   ArrowRight,
   Download,
@@ -25,6 +27,11 @@ import {
 // Import images
 import logoImage from "@/assets/58dde16c9b56f9a8d8987afd2e41c3e22a802f2b.png";
 import aboutImage from "@/assets/082d4ed29441baa6ca9c79bb7143c4c2cecf4cd3.png";
+
+// Hero Banner Images
+import banner1 from "@/assets/Banner-1.jpg";
+import banner2 from "@/assets/Banner-2.jpg";
+import banner3 from "@/assets/Banner-3.jpg";
 
 // Import Product Category Images
 import nonPlasticImg from "@/assets/Non Plastic Packaging Solutions - Eco Friendly - 100% compostable.png";
@@ -85,6 +92,7 @@ export function HomePage() {
 }
 
 function HeroSection() {
+
   const stats = [
     { value: "700+", label: "Happy Clients", icon: Handshake },
     { value: "30+", label: "Years of Experience", icon: Factory },
@@ -92,38 +100,77 @@ function HeroSection() {
     { value: "200+", label: "Tons/Month Capacity", icon: Box },
   ];
 
+  const backgrounds = [
+    banner1,
+    banner2,
+    banner3,
+  ];
+
+  const [currentBg, setCurrentBg] = React.useState(0);
+
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentBg((prev) => (prev + 1) % backgrounds.length);
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="relative w-full overflow-hidden">
+
       {/* Main Hero Area */}
-      <div className="bg-[#008F4C] pt-24 pb-32 text-white relative">
-        {/* Background Pattern (Map Placeholder) */}
-        <div className="absolute inset-0 opacity-20 pointer-events-none" 
-             style={{ 
-               backgroundImage: "url('https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg')", 
-               backgroundRepeat: "no-repeat",
-               backgroundPosition: "center",
-               backgroundSize: "cover",
-               filter: "brightness(0) invert(1)"
-             }}>
-        </div>
-        
+      <div
+        className="pt-24 pb-32 text-white relative overflow-hidden transition-all duration-1000"
+        style={{
+          backgroundImage: `url(${backgrounds[currentBg]})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+
+        {/* Green Overlay */}
+        <div className="absolute inset-0 bg-[#008F4C]/80 z-0"></div>
+
+        {/* Background Pattern */}
+        <div
+          className="absolute inset-0 opacity-20 pointer-events-none"
+          style={{
+            backgroundImage:
+              "url('https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg')",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            filter: "brightness(0) invert(1)",
+          }}
+        ></div>
+
         <div className="relative max-w-[1200px] mx-auto px-6 text-center z-10">
+
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
             className="mb-8 flex justify-center"
           >
-            {/* Main Logo Graphic - Orange/Beige Circle Background */}
+
+            {/* Main Logo Graphic */}
             <div className="w-72 h-72 bg-[#E8C07D] rounded-full flex items-center justify-center border-8 border-[#C9A265] shadow-2xl relative">
-               <div className="absolute -top-10 left-1/2 -translate-x-1/2 w-full flex justify-center">
-                   {/* Decorative elements if needed */}
-               </div>
-               <img src={logoImage} alt="Just Packaging Solutions" className="w-56 h-auto drop-shadow-lg" />
+
+              <div className="absolute -top-10 left-1/2 -translate-x-1/2 w-full flex justify-center">
+              </div>
+
+              <img
+                src={logoImage}
+                alt="Just Packaging Solutions"
+                className="w-56 h-auto drop-shadow-lg"
+              />
+
             </div>
           </motion.div>
 
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
@@ -132,29 +179,49 @@ function HeroSection() {
             Sustainable Packaging Solutions for Global Brands
           </motion.h1>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
             className="flex flex-wrap justify-center gap-3 text-lg md:text-xl font-bold text-white mb-8"
           >
-            <span className="bg-[#006837] px-4 py-1 rounded-full border border-[#F3E5AB]">Plastic</span>
+
+            <span className="bg-[#006837] px-4 py-1 rounded-full border border-[#F3E5AB]">
+              Plastic
+            </span>
+
             <span className="text-[#F3E5AB] flex items-center">•</span>
-            <span className="bg-[#006837] px-4 py-1 rounded-full border border-[#F3E5AB]">Biodegradable</span>
+
+            <span className="bg-[#006837] px-4 py-1 rounded-full border border-[#F3E5AB]">
+              Biodegradable
+            </span>
+
             <span className="text-[#F3E5AB] flex items-center">•</span>
-            <span className="bg-[#006837] px-4 py-1 rounded-full border border-[#F3E5AB]">Compostable</span>
+
+            <span className="bg-[#006837] px-4 py-1 rounded-full border border-[#F3E5AB]">
+              Compostable
+            </span>
+
             <span className="text-[#F3E5AB] flex items-center">•</span>
-            <span className="bg-[#006837] px-4 py-1 rounded-full border border-[#F3E5AB]">Custom Printed Packaging</span>
+
+            <span className="bg-[#006837] px-4 py-1 rounded-full border border-[#F3E5AB]">
+              Custom Printed Packaging
+            </span>
+
           </motion.div>
         </div>
       </div>
 
       {/* Dark Stats Bar Strip */}
       <div className="bg-gradient-to-r from-black via-[#1a1a1a] to-black py-6 border-t-4 border-[#F3E5AB] relative z-20 -mt-10 shadow-2xl">
+
         <div className="max-w-[1200px] mx-auto px-6">
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-gray-700/50">
+
             {stats.map((stat, index) => {
               const Icon = stat.icon;
+
               return (
                 <motion.div
                   key={index}
@@ -164,14 +231,25 @@ function HeroSection() {
                   transition={{ delay: 0.2 + index * 0.1 }}
                   className="flex flex-col items-center text-center gap-2 px-2"
                 >
+
                   <div className="flex items-center gap-3 mb-1">
-                      <Icon className="w-8 h-8 text-[#F3E5AB]" />
-                      <h3 className="text-3xl font-bold text-white">{stat.value}</h3>
+
+                    <Icon className="w-8 h-8 text-[#F3E5AB]" />
+
+                    <h3 className="text-3xl font-bold text-white">
+                      {stat.value}
+                    </h3>
+
                   </div>
-                  <p className="text-xs md:text-sm font-semibold text-[#F3E5AB] uppercase tracking-widest">{stat.label}</p>
+
+                  <p className="text-xs md:text-sm font-semibold text-[#F3E5AB] uppercase tracking-widest">
+                    {stat.label}
+                  </p>
+
                 </motion.div>
               );
             })}
+
           </div>
         </div>
       </div>
