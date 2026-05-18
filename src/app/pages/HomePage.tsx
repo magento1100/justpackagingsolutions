@@ -1,7 +1,5 @@
 import { Link } from "react-router";
 import { motion } from "motion/react";
-import React from "react";
-
 import {
   ArrowRight,
   Download,
@@ -27,11 +25,6 @@ import {
 // Import images
 import logoImage from "@/assets/58dde16c9b56f9a8d8987afd2e41c3e22a802f2b.png";
 import aboutImage from "@/assets/082d4ed29441baa6ca9c79bb7143c4c2cecf4cd3.png";
-
-// Hero Banner Images
-import banner1 from "@/assets/Banner-1.jpg";
-import banner2 from "@/assets/Banner-2.jpg";
-import banner3 from "@/assets/Banner-3.jpg";
 
 // Import Product Category Images
 import nonPlasticImg from "@/assets/Non Plastic Packaging Solutions - Eco Friendly - 100% compostable.png";
@@ -102,29 +95,32 @@ function HeroSection() {
   const [currentBg, setCurrentBg] = React.useState(0);
 
   React.useEffect(() => {
+
     const interval = setInterval(() => {
       setCurrentBg((prev) => (prev + 1) % backgrounds.length);
     }, 4000);
 
     return () => clearInterval(interval);
+
   }, []);
 
   return (
+
     <section className="relative w-full overflow-hidden">
 
-      {/* Banner Slider Only */}
-      <div
-        className="w-full h-[300px] md:h-[500px] lg:h-[700px] transition-all duration-1000"
-        style={{
-          backgroundImage: `url(${backgrounds[currentBg]})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
+      {/* Banner Slider */}
+      <div className="w-full h-[220px] sm:h-[320px] md:h-[450px] lg:h-[600px] xl:h-[720px] overflow-hidden">
+
+        <img
+          src={backgrounds[currentBg]}
+          alt="Banner"
+          className="w-full h-full object-cover object-center transition-all duration-1000"
+        />
+
       </div>
 
     </section>
+
   );
 }
 
