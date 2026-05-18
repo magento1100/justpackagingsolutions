@@ -119,7 +119,7 @@ function HeroSection() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          filter: "blur(12px)",
+          filter: "blur(6px)",
           opacity: 0.6,
           transition: "background-image 1s ease",
         }}
