@@ -92,7 +92,6 @@ export function HomePage() {
 }
 
 function HeroSection() {
-
   const backgrounds = [
     banner1,
     banner2,
@@ -112,18 +111,30 @@ function HeroSection() {
   return (
     <section className="relative w-full overflow-hidden">
 
-      {/* Banner Slider Only */}
+      {/* Blurred Background Layer */}
       <div
-        className="w-full h-[300px] md:h-[500px] lg:h-[700px] transition-all duration-1000"
+        className="absolute inset-0 scale-110"
+        style={{
+          backgroundImage: `url(${backgrounds[currentBg]})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          filter: "blur(12px)",
+          opacity: 0.6,
+          transition: "background-image 1s ease",
+        }}
+      />
+
+      {/* Main Banner (no crop) */}
+      <div
+        className="relative w-full h-[300px] md:h-[500px] lg:h-[700px] transition-all duration-1000"
         style={{
           backgroundImage: `url(${backgrounds[currentBg]})`,
           backgroundSize: "contain",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          backgroundColor: "#000000", // Fallback color while images load
         }}
-      >
-      </div>
+      />
 
     </section>
   );
